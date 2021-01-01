@@ -40,7 +40,9 @@ const client = new ApolloClient({
 // initialState same as redux 
 client.writeData({
   data: {
-    cartHidden: true 
+    cartHidden: true ,
+    cartItems: [],
+    itemCount: 0
   }
 });
 
